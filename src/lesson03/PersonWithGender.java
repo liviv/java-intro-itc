@@ -5,7 +5,6 @@ public class PersonWithGender {
     int age;
     Gender gender;
 
-
     public PersonWithGender(String firstName, String secondName, int age, Gender gender) {
         this.firstName = firstName;
         this.secondName = secondName;
@@ -44,7 +43,6 @@ public class PersonWithGender {
                 ", gender=" + gender +
                 '}';
     }
-
 
     public static void main(String[] args) {
         PersonWithGender p1 = new PersonWithGender(

@@ -6,6 +6,7 @@ public class MyFirstProgram {
         System.out.println("Hello World!!!");
 
         EachNth.extractEachNthChar("0123456789abcdef",2);
-       // EachNth.extractEachNthChar("",3);
+        EachNth.extractEachNthChar("",3);
+
     }
 }
