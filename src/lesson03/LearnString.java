@@ -129,6 +129,24 @@ public class LearnString {
         }
         return stringArray;
     }
+
+    public static boolean xy(String str) {
+//if
+        if (!(str.contains("x"))) {
+            System.out.println("no y ");
+            return true;
+        }
+        if (str.lastIndexOf("y") > str.lastIndexOf("x")) {
+            return true;
+        } else {
+            System.out.println(" no y after x");
+            return false;
+        }
+
+
+    }
+
+
 }
 
 
